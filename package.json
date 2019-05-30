@@ -1,0 +1,102 @@
+{
+  "name": "@eclass/renovate-config",
+  "version": "0.0.1",
+  "description": "A shareable renovate-config to eclass projects",
+  "main": "",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eclass/renovate-config"
+  },
+  "keywords": [
+    "renovate",
+    "renovate-config",
+    "eclass"
+  ],
+  "engines": {
+    "node": "12.3.1"
+  },
+  "author": "Leonardo Gatica <lgatica@protonmail.com> (https://about.me/lgatica)",
+  "bugs": {
+    "url": "https://github.com/eclass/renovate-config/issues"
+  },
+  "homepage": "https://github.com/eclass/renovate-config#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@commitlint/cli": "7.6.1",
+    "@commitlint/config-conventional": "7.6.0",
+    "@semantic-release/changelog": "3.0.2",
+    "@semantic-release/commit-analyzer": "6.1.0",
+    "@semantic-release/git": "7.0.8",
+    "@semantic-release/github": "5.2.10",
+    "@semantic-release/npm": "5.1.9",
+    "@semantic-release/release-notes-generator": "7.1.4",
+    "husky": "2.3.0",
+    "semantic-release": "15.13.14"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "renovate": {
+    "extends": [
+      "config:js-lib"
+    ],
+    "assignees": [
+      "lgatica"
+    ],
+    "reviewers": [
+      "lgaticaq"
+    ],
+    "labels": [
+      "renovate"
+    ],
+    "minor": {
+      "automerge": true
+    },
+    "major": {
+      "automerge": false
+    }
+  },
+  "release": {
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/changelog",
+      "@semantic-release/npm",
+      "@semantic-release/git",
+      "@semantic-release/github"
+    ]
+  },
+  "renovate-config": {
+    "base": {
+      "description": "Default base configuration for all languages",
+      "extends": [
+        "config:base",
+        ":automergeMinor",
+        ":labels(renovate)",
+        ":reviewer(lgaticaq)"
+      ]
+    },
+    "js-app": {
+      "description": "Default configuration for webapps",
+      "extends": [
+        "@eclass:base",
+        "config:js-app"
+      ]
+    },
+    "js-lib": {
+      "description": "Default configuration for libraries",
+      "extends": [
+        "@eclass:base",
+        "config:js-lib"
+      ]
+    }
+  }
+}
