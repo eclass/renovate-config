@@ -80,7 +80,7 @@
       "extends": [
         "config:base",
         ":automergeMinor",
-        ":labels(renovate)",
+        ":label(renovate)",
         ":reviewer(lgaticaq)"
       ]
     },
