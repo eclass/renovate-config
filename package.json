@@ -97,6 +97,15 @@
         "@eclass:base",
         "config:js-lib"
       ]
+    },
+    "sequelize-lib": {
+      "description": "Default configuration for sequelize libraries",
+      "extends": [
+        "@eclass:js-lib"
+      ],
+      "ignoreDeps": [
+        "sequelize"
+      ]
     }
   }
 }
