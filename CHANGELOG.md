@@ -1,3 +1,11 @@
+# [1.2.0](https://github.com/eclass/renovate-config/compare/v1.1.0...v1.2.0) (2019-08-31)
+
+
+### Features
+
+* **presets:** add rollup-js-app and rollup-js-lib ([7af3fa5](https://github.com/eclass/renovate-config/commit/7af3fa5))
+* **sequelize-lib:** migrate to allowedVersions ([66774cc](https://github.com/eclass/renovate-config/commit/66774cc))
+
 # [1.1.0](https://github.com/eclass/renovate-config/compare/v1.0.0...v1.1.0) (2019-08-28)
 
 
