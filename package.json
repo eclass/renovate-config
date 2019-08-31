@@ -117,6 +117,30 @@
           "allowedVersions": "<2"
         }
       ]
+    },
+    "rollup-js-app": {
+      "description": "Configuration for js apps with an unique MR/PR",
+      "extends": [
+        "@eclass:js-app"
+      ],
+      "packageRules": [
+        {
+          "packagePatterns": "*",
+          "groupName": "everything"
+        }
+      ]
+    },
+    "rollup-js-lib": {
+      "description": "Configuration for js libraries with an unique MR/PR",
+      "extends": [
+        "@eclass:js-lib"
+      ],
+      "packageRules": [
+        {
+          "packagePatterns": "*",
+          "groupName": "everything"
+        }
+      ]
     }
   }
 }
