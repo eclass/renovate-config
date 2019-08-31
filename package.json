@@ -103,8 +103,19 @@
       "extends": [
         "@eclass:js-lib"
       ],
-      "ignoreDeps": [
-        "sequelize"
+      "packageRules": [
+        {
+          "packageNames": [
+            "sequelize"
+          ],
+          "allowedVersions": "<5"
+        },
+        {
+          "packageNames": [
+            "dataloader-sequelize"
+          ],
+          "allowedVersions": "<2"
+        }
       ]
     }
   }
