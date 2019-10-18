@@ -82,7 +82,8 @@
         ":automergeMinor",
         ":label(renovate)",
         ":reviewer(lgaticaq)"
-      ]
+      ],
+      "commitBody": "[skip ci]"
     },
     "js-app": {
       "description": "Default configuration for webapps",
