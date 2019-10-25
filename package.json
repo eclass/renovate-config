@@ -88,15 +88,15 @@
     "js-app": {
       "description": "Default configuration for webapps",
       "extends": [
-        "@eclass:base",
-        "config:js-app"
+        "config:js-app",
+        "@eclass:base"
       ]
     },
     "js-lib": {
       "description": "Default configuration for libraries",
       "extends": [
-        "@eclass:base",
-        "config:js-lib"
+        "config:js-lib",
+        "@eclass:base"
       ]
     },
     "sequelize-lib": {
