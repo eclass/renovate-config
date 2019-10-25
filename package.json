@@ -99,11 +99,8 @@
         "@eclass:base"
       ]
     },
-    "sequelize-lib": {
-      "description": "Default configuration for sequelize libraries",
-      "extends": [
-        "@eclass:js-lib"
-      ],
+    "sequelizev4": {
+      "description": "Default configuration for sequelize v4",
       "packageRules": [
         {
           "packageNames": [
@@ -117,6 +114,13 @@
           ],
           "allowedVersions": "<2"
         }
+      ]
+    },
+    "sequelize-lib": {
+      "description": "Default configuration for sequelize libraries",
+      "extends": [
+        "@eclass:js-lib",
+        "@eclass:sequelizev4"
       ]
     },
     "rollup-js-app": {
