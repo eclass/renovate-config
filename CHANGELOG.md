@@ -1,3 +1,15 @@
+# [1.3.0](https://github.com/eclass/renovate-config/compare/v1.2.0...v1.3.0) (2019-10-25)
+
+
+### Bug Fixes
+
+* **renovate:** change order of extends custom base ([689a294](https://github.com/eclass/renovate-config/commit/689a294))
+
+
+### Features
+
+* **renovate:** move sequelize v4 settings to preset ([e83fcfc](https://github.com/eclass/renovate-config/commit/e83fcfc))
+
 # [1.2.0](https://github.com/eclass/renovate-config/compare/v1.1.0...v1.2.0) (2019-08-31)
 
 
