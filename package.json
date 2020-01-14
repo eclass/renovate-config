@@ -31,7 +31,7 @@
     "@semantic-release/github": "6.0.1",
     "@semantic-release/npm": "6.0.0",
     "@semantic-release/release-notes-generator": "7.3.5",
-    "husky": "4.0.7",
+    "husky": "4.0.9",
     "semantic-release": "16.0.1"
   },
   "husky": {
