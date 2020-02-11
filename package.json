@@ -14,7 +14,7 @@
     "eclass"
   ],
   "engines": {
-    "node": "12.15.0"
+    "node": "12.16.0"
   },
   "author": "Leonardo Gatica <lgatica@protonmail.com> (https://about.me/lgatica)",
   "bugs": {
