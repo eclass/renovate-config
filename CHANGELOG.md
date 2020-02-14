@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/eclass/renovate-config/compare/v1.3.0...v1.4.0) (2020-02-14)
+
+
+### Features
+
+* **presets:** add self-host to set author of renovate bot ([68a8edb](https://github.com/eclass/renovate-config/commit/68a8edb5e203819cd85c78982219ffcd39a6cfec))
+
 # [1.3.0](https://github.com/eclass/renovate-config/compare/v1.2.0...v1.3.0) (2019-10-25)
 
 
