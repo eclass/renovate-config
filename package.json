@@ -146,6 +146,10 @@
           "groupName": "everything"
         }
       ]
+    },
+    "self-host": {
+      "description": "Set author for self-host renovate bot",
+      "gitAuthor": "Renovate Bot <b7740201@nwytg.net>"
     }
   }
 }
