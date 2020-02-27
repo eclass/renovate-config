@@ -83,7 +83,11 @@
         ":label(renovate)",
         ":reviewer(lgaticaq)"
       ],
-      "commitBody": "[skip ci]"
+      "commitBody": "[skip ci]",
+      "node": {
+        "enabled": true,
+        "supportPolicy": ["active"]
+      }
     },
     "js-app": {
       "description": "Default configuration for webapps",
