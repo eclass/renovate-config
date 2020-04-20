@@ -81,7 +81,8 @@
         "config:base",
         ":automergeMinor",
         ":label(renovate)",
-        ":reviewer(lgaticaq)"
+        ":reviewer(lgaticaq)",
+        ":githubComToken(Yi/1TSxceYIsgJOHQ0gxS3Tj/g4n+ZSwALm6ZrtClVRIPAnnU4kY/byHlS+Irxtc28S6UBT8GsQUp/zZ6NJRdw4z2ls46Xq9+DhjAYebVeeeqOCEDZl+e/kqrUlRaJ1WuZJ1bvRNv1hma6ZQkzolVzBlHQxZgNT3mVJDAfF81rL8MXW+s01Q4pnaVExS44IdoiEENpQnzZqtodTni2wsds+OS8Owp+gdY8LY7imsMdzvCc8+f0wEZsGfuL009HHYEUOgMnjijJR+pjsDG7sbuX/nfATaWiJMoaS5U5XJxZgxq/HDKdy9311T+Pei6FF5USh5xSMKGCirJKtfIl6I6g==)"
       ],
       "commitBody": "[skip ci]",
       "node": {
