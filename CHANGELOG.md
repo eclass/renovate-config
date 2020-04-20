@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/eclass/renovate-config/compare/v1.4.0...v1.5.0) (2020-04-20)
+
+
+### Features
+
+* **base:** enable get release notes from github ([6d08a95](https://github.com/eclass/renovate-config/commit/6d08a9576e19bd3b08f9e1b2818207c8ce30f185))
+
 # [1.4.0](https://github.com/eclass/renovate-config/compare/v1.3.0...v1.4.0) (2020-02-14)
 
 

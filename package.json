@@ -1,6 +1,6 @@
 {
   "name": "@eclass/renovate-config",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "description": "A shareable renovate-config to eclass projects",
   "main": "",
   "scripts": {},
@@ -87,7 +87,9 @@
       "commitBody": "[skip ci]",
       "node": {
         "enabled": true,
-        "supportPolicy": ["active"]
+        "supportPolicy": [
+          "active"
+        ]
       }
     },
     "js-app": {
