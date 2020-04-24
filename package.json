@@ -157,6 +157,17 @@
     "self-host": {
       "description": "Set author for self-host renovate bot",
       "gitAuthor": "Renovate Bot <b7740201@nwytg.net>"
+    },
+    "types-node-v12": {
+      "description": "Force to keep @types/node v12",
+      "packageRules": [
+        {
+          "packageNames": [
+            "@types/node"
+          ],
+          "allowedVersions": "<13"
+        }
+      ]
     }
   }
 }
