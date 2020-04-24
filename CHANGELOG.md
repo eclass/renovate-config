@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/eclass/renovate-config/compare/v1.5.0...v1.6.0) (2020-04-24)
+
+
+### Features
+
+* **presets:** add types-node-v12 ([c9788f4](https://github.com/eclass/renovate-config/commit/c9788f4db16b1ddda76230052cb3fcd3c0f36b58))
+
 # [1.5.0](https://github.com/eclass/renovate-config/compare/v1.4.0...v1.5.0) (2020-04-20)
 
 
