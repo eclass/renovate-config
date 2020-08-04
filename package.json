@@ -1,6 +1,6 @@
 {
   "name": "@eclass/renovate-config",
-  "version": "1.6.0",
+  "version": "1.6.1",
   "description": "A shareable renovate-config to eclass projects",
   "main": "",
   "scripts": {},

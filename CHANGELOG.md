@@ -1,3 +1,10 @@
+## [1.6.1](https://github.com/eclass/renovate-config/compare/v1.6.0...v1.6.1) (2020-08-04)
+
+
+### Bug Fixes
+
+* **presets:** remove default assign and review ([3a355f3](https://github.com/eclass/renovate-config/commit/3a355f3379230538b5483d7d93bf1cde9fae0549))
+
 # [1.6.0](https://github.com/eclass/renovate-config/compare/v1.5.0...v1.6.0) (2020-04-24)
 
 
