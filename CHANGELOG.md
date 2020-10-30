@@ -1,3 +1,10 @@
+## [1.6.2](https://github.com/eclass/renovate-config/compare/v1.6.1...v1.6.2) (2020-10-30)
+
+
+### Bug Fixes
+
+* **base:** remove unused githubComToken ([8545256](https://github.com/eclass/renovate-config/commit/8545256bb8a610314ad915d35019057ff916108a))
+
 ## [1.6.1](https://github.com/eclass/renovate-config/compare/v1.6.0...v1.6.1) (2020-08-04)
 
 
