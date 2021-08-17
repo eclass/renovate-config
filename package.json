@@ -133,6 +133,13 @@
         "@eclass:sequelizev4"
       ]
     },
+    "semantic-release-plugins-commonjs": {
+      "description": "Default configuration for semantic-release plugins with commonjs",
+      "extends": [
+        "@eclass:js-lib",
+        "@eclass:deps-commonjs"
+      ]
+    },
     "rollup-js-app": {
       "description": "Configuration for js apps with an unique MR/PR",
       "extends": [
