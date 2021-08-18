@@ -44,20 +44,6 @@
       "@commitlint/config-conventional"
     ]
   },
-  "renovate": {
-    "extends": [
-      "config:js-lib"
-    ],
-    "labels": [
-      "renovate"
-    ],
-    "minor": {
-      "automerge": true
-    },
-    "major": {
-      "automerge": false
-    }
-  },
   "release": {
     "plugins": [
       "@semantic-release/commit-analyzer",
