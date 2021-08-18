@@ -1,0 +1,7 @@
+{
+  "description": "Default configuration for semantic-release plugins with commonjs",
+  "extends": [
+    "github>eclass/renovate-config:js-lib",
+    "github>eclass/renovate-config:deps-commonjs"
+  ]
+}

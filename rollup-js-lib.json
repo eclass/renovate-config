@@ -1,0 +1,12 @@
+{
+  "description": "Configuration for js libraries with an unique MR/PR",
+  "extends": [
+    "github>eclass/renovate-config:js-lib"
+  ],
+  "packageRules": [
+    {
+      "packagePatterns": "*",
+      "groupName": "everything"
+    }
+  ]
+}

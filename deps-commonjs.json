@@ -1,0 +1,11 @@
+{
+  "description": "Default configuration for only update dependencies with commonjs",
+  "packageRules": [
+    {
+      "packageNames": [
+        "aggregate-error"
+      ],
+      "allowedVersions": "<4"
+    }
+  ]
+}

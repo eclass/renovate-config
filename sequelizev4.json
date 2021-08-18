@@ -1,0 +1,17 @@
+{
+  "description": "Default configuration for sequelize v4",
+  "packageRules": [
+    {
+      "packageNames": [
+        "sequelize"
+      ],
+      "allowedVersions": "<5"
+    },
+    {
+      "packageNames": [
+        "dataloader-sequelize"
+      ],
+      "allowedVersions": "<2"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "description": "Configuration for js apps with an unique MR/PR",
+  "extends": [
+    "github>eclass/renovate-config:js-app"
+  ],
+  "packageRules": [
+    {
+      "packagePatterns": "*",
+      "groupName": "everything"
+    }
+  ]
+}

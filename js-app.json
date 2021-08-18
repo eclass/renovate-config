@@ -1,0 +1,7 @@
+{
+  "description": "Default configuration for webapps",
+  "extends": [
+    "config:js-app",
+    "github>eclass/renovate-config"
+  ]
+}

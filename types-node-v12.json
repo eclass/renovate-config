@@ -1,0 +1,11 @@
+{
+  "description": "Force to keep @types/node v12",
+  "packageRules": [
+    {
+      "packageNames": [
+        "@types/node"
+      ],
+      "allowedVersions": "<13"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "description": "Default configuration for sequelize libraries",
+  "extends": [
+    "github>eclass/renovate-config:js-lib",
+    "github>eclass/renovate-config:sequelizev4"
+  ]
+}
