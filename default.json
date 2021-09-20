@@ -2,7 +2,10 @@
   "extends": [
     "config:base",
     ":automergeMinor",
-    ":label(renovate)"
+    ":label(renovate)",
+    ":automergeLinters",
+    ":automergeTesters",
+    ":automergeTypes"
   ],
   "commitBody": "[skip ci]",
   "node": {
@@ -10,5 +13,11 @@
     "supportPolicy": [
       "active"
     ]
-  }
+  },
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+      "automerge": true
+    }
+  ]
 }
